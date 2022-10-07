@@ -1,0 +1,45 @@
+body {
+    background: black;
+}
+
+.buttons {
+  display: block;
+}
+
+h1 {
+   color: white;
+}
+
+img {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  transition: 1s;
+}
+
+span {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: url(./assets/img/ast.PNG);
+  background-size: cover;
+  right: 0;
+  animation: ast 5s forwards;
+}
+
+@keyframes ast {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 50px;
+  }
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
